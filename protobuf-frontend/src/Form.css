@@ -1,0 +1,31 @@
+.form-inline {
+    width: 100%;
+  }
+  
+  .form-group {
+    width: 90%;
+  }
+  
+  .input-group {
+    width: 90% !important;
+  }
+  
+  .form-control {
+    width: 50% !important;
+  }
+
+  .status-text {
+      color:crimson;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  .footer-color {
+    background-color: #2F72AC;
+  }
+
+  a:hover, a:active,a:link {
+    color: white;
+    background-color: white;
+  }
