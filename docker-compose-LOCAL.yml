@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  backend:
+    image: spring-protobuf-server
+    container_name: backend
+    restart: always
+    ports: 
+    - "8080:8080"
+
+  frontend:
+    image: protobuf-frontend
+    container_name: frontend
+    restart: on-failure
+    ports: 
+    - "80:80"
+    depends_on: 
+    - backend

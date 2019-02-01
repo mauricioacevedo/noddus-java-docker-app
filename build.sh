@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+SECONDS=0
+
 echo "#######################################################"
 echo "#######################################################"
 echo "## Noddus java+docker Use Case build and run script. ##"
@@ -32,5 +34,9 @@ sleep 2
 echo "[RUN] protobuf backend and frontend..\n"
 sleep 2
 ## run containers
-/usr/bin/docker run -d --rm -p 8080:8080 --network proto-network -h backend --name backend spring-protobuf-server
-/usr/bin/docker run -d --rm -p 80:80 --network proto-network -h frontend --name frontend protobuf-frontend
+#/usr/bin/docker run -d --rm -p 8080:8080 --network proto-network -h backend --name backend spring-protobuf-server
+#/usr/bin/docker run -d --rm -p 80:80 --network proto-network -h frontend --name frontend protobuf-frontend
+/usr/bin/docker-compose -f docker-compose-LOCAL.yml up
+echo "#######################################################"
+echo "#######################################################"
+echo "[FINISHED] Elapsed time: $SECONDS secs."
