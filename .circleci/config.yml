@@ -14,7 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: ~/noddus-java-docker-use-case/spring-protobuf-server/
+    working_directory: ~/repo/spring-protobuf-server/
 
     environment:
       # Customize the JVM maximum heap limit
