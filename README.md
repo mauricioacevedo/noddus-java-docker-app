@@ -38,3 +38,5 @@ docker-compose -f docker-compose-SIMPLE.yml
     -	Nodejs 10+ \[OPTIONAL\]
     -	Docker 18+
     -	Comments and suggestions please let me know at my email: Mauricio.acevedo@gmail.com.
+4. Integrates with CircleCI for CI
+5. Project tested on Windows, Centos 7 and Ubuntu server 18.04 LTS
