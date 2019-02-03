@@ -21,7 +21,6 @@ echo "[START] backend build"
 ## BUILD frontend
 # /usr/bin/npm build --prefix ./protobuf-frontend
 
-
 ##build images
 echo "[START] build docker images.\n"
 sleep 2
