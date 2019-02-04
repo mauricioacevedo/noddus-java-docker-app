@@ -14,7 +14,7 @@ For the project to run you need installed in your system:
     - Java 8 +
     - Maven 3+ 
     - Nodejs 10+ \[OPTIONAL\]
-    - docker and docker-compose
+    - docker and docker compose
 You have 2 alternatives to build and execute the whole system:
 1. Docker-compose SIMPLE: the repo file docker-compose-SIMPLE.yml load pre-built images hosted on Docker hub (https://cloud.docker.com/u/macevedg/repository/list) so then you just grab the docker-compose-SIMPLE.yml file, put it in your system and run: 
 ```
@@ -30,7 +30,7 @@ docker-compose -f docker-compose-SIMPLE.yml
        ```
 
 ## Aside notes:
-1.	The Java + Docker use case was tested on a Centos 7 environment.
+1.	Project tested on Windows, Centos 7 and Ubuntu server 18.04 LTS.
 2.	For the execution of every command you need to have an administrative account or access to sudo.
 3.	To build the project it’s a must to have installed the recommended software:
     -   Java jdk (openjdk) 1.8+
@@ -39,4 +39,3 @@ docker-compose -f docker-compose-SIMPLE.yml
     -	Docker 18+
     -	Comments and suggestions please let me know at my email: Mauricio.acevedo@gmail.com.
 4. Integrates with CircleCI for CI
-5. Project tested on Windows, Centos 7 and Ubuntu server 18.04 LTS
