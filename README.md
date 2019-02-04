@@ -1,5 +1,5 @@
 # Noddus Java and Docker Use Case
-Small project using Java and Docker to implement a serialization based on the Google Protobuf mechanism. The app is separed in back and front end.
+Small project using Java and Docker to implement a serialization based on the Google Protocol Buffers (Protobuf) mechanism. The app is separed in back and front end.
 
 ## Backend: Spring Boot app
 Folder: spring-protobuf-server. Using a spring boot project, handled by maven, it was developed a REST service that can receive a simple JSON body and save it as a binary protobuf file. It has 2 REST services:
