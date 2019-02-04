@@ -18,7 +18,7 @@ For the project to run you need installed in your system:
 You have 2 alternatives to build and execute the whole system:
 1. Docker-compose SIMPLE: the repo file docker-compose-SIMPLE.yml load pre-built images hosted on Docker hub (https://cloud.docker.com/u/macevedg/repository/list) so then you just grab the docker-compose-SIMPLE.yml file, put it in your system and run: 
 ```
-docker-compose -f docker-compose-SIMPLE.yml
+docker-compose -f docker-compose-SIMPLE.yml up
 ```
 
 2. Docker-compose LOCAL: executing the bash script build.sh the program :
@@ -26,7 +26,7 @@ docker-compose -f docker-compose-SIMPLE.yml
     2. Build the images needed (spring-protobuf-server and protobuf-frontend).
     3. Run the docker-compose command using the file docker-compose-LOCAL.yml:
        ```
-       docker-compose -f docker-compose-LOCAL.yml
+       docker-compose -f docker-compose-LOCAL.yml up
        ```
 
 ## Aside notes:
