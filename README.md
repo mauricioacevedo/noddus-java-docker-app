@@ -21,13 +21,22 @@ You have 2 alternatives to build and execute the whole system:
 docker-compose -f docker-compose-SIMPLE.yml up
 ```
 
-2. Docker-compose LOCAL: executing the bash script build.sh the program :
+2. Docker-compose LOCAL: executing the bash script build.sh the program:
     1. Build the Spring Boot project.
     2. Build the images needed (spring-protobuf-server and protobuf-frontend).
     3. Run the docker-compose command using the file docker-compose-LOCAL.yml:
        ```
        docker-compose -f docker-compose-LOCAL.yml up
        ```
+   To execute the script you need to grant it execution permissions like this:
+   ```
+   chmod +x build.sh
+   ```
+   After that you can execute the build script:
+   ```
+   sudo ./build.sh
+   ```
+   Notice that you need admin privileges to execute the script.
 
 ## Aside notes:
 1.	Project tested on Windows, Centos 7 and Ubuntu server 18.04 LTS.
